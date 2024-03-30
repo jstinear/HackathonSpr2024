@@ -6,63 +6,111 @@
   <title>My Website</title>
   <style>
     /* CSS styles */
+    
     body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #f0f0f0;
+      font-family: Verdana, sans; /* Set the font family for the body */
+      margin: 0; /* Remove default margin */
+      padding: 0; /* Remove default padding */
+      background-color: #ffffff; /* Set background color */
     }
 
     header {
-      background-color: #333;
-      color: #fff;
-      padding: 10px 20px;
-      text-align: center;
+      background-color: #ffffff; /* Set background color for header */
+      color: #000000; /* Set text color for header */
+      padding: 20px 20px; /* Set padding for header */
+      text-align: left; /* Align text to the left within the header */
     }
 
     nav {
-      background-color: #444;
-      color: #fff;
-      padding: 10px 20px;
-      text-align: center;
+      background-color: #22195d; /* Set background color for navigation */
+      color: #ffffff; /* Set text color for navigation */
+      padding: 30px; /* Set padding for navigation */
+      text-align: center; /* Align text to the center within the navigation */
     }
 
+    nav h1 {
+      font-size: 40px; /* Set font size for h1 element */
+      margin-bottom: 30px; /* Add margin below h1 element */
+      font-weight: normal; /* Set font weight to normal */
+    }
+
+    nav h4 {
+      font-size: 13px; /* Set font size for h1 element */
+      margin-bottom: 20px; /* Add margin below h1 element */
+      font-weight: normal; /* Set font weight to normal */
+    }
+
+    nav input[type="text"] {
+      width: 30%; /* Set width of search input to 100% */
+      padding: 10px; /* Set padding for search input */
+      font-size: 15px; /* Set font size for search input */
+      height: 20px; /* Set height for search input */
+      border-radius: 10px; /* Add curved corners to the search input */
+      margin-bottom: 0px; /* Add margin below h1 element */
+    }
+
+    nav h3 {
+      font-size: 13px; /* Set font size for h1 element */
+      margin-bottom: 20px; /* Add margin below h1 element */
+      font-weight: normal; /* Set font weight to normal */
+    }
+
+    nav h5 {
+      font-size: 14px; /* Set font size for h1 element */
+      margin-bottom: 20px; /* Add margin below h1 element */
+      font-weight: normal; /* Set font weight to normal */
+    }
+
+
     nav a {
-      color: #fff;
-      text-decoration: none;
-      margin: 0 10px;
+      color: #ffffff; /* Set text color for navigation links */
+      text-decoration: none; /* Remove underline from navigation links */
+      margin: 10px; /* Set margin for navigation links */
     }
 
     nav a:hover {
-      text-decoration: underline;
+      text-decoration: underline; /* Underline navigation links on hover */
     }
 
     section {
-      padding: 20px;
+      padding: 20px; /* Set padding for sections */
     }
 
     footer {
-      background-color: #333;
-      color: #fff;
-      padding: 10px 20px;
-      text-align: center;
-      position: fixed;
-      bottom: 0;
-      width: 100%;
+      background-color: #333; /* Set background color for footer */
+      color: #fff; /* Set text color for footer */
+      padding: 10px 20px; /* Set padding for footer */
+      text-align: center; /* Align text to the center within the footer */
+      position: fixed; /* Fix the footer position */
+      bottom: 0; /* Position the footer at the bottom of the page */
+      width: 100%; /* Set width of the footer to 100% */
     }
   </style>
 </head>
 <body>
 
   <header>
-    <h1>Welcome to the Website</h1>
+    <img src="3.png" alt="My Website Logo" style="width: 40px; height: auto;">
   </header>
 
   <nav>
-    <a href="#">Home</a>
-    <a href="#">About</a>
-    <a href="#">Contact</a>
+    <h1>Enhance Your Investment Choices <br> Using Alternative Data</h1>
+    <h4>Discover exclusive AI-generated stock selections, receive timely stock notifications, and access of <br> alternative insights. Enhance your research efforts with </h4>
+    <!-- Search bar -->
+    <input type="text" id="search" name="search" placeholder="Search Stocks and Crypto">
+    <h3>Or Sign up (for free) to get started.</h3>
+    <h5>Popular Stocks: 
+      <a href="https://www.google.com/search?q=Tesla+stock&sca_esv=87466933d42afd42&sxsrf=ACQVn0-rPElr2kqLr4TssqoL1gwn8OzMIg%3A1711840905290&ei=iZ4IZteuEa7F0PEP2fCs-As&ved=0ahUKEwiXl8mokJ2FAxWuIjQIHVk4C78Q4dUDCBA&uact=5&oq=Tesla+stock&gs_lp=Egxnd3Mtd2l6LXNlcnAiC1Rlc2xhIHN0b2NrMhIQIxiABBiKBRgnGJ0CGEYY-gEyDRAAGIAEGBQYhwIYsQMyCBAAGIAEGLEDMggQABiABBixAzIIEAAYgAQYsQMyCBAAGIAEGLEDMggQABiABBixAzILEAAYgAQYigUYsQMyCBAAGIAEGLEDMgsQLhiABBjHARivATIcEAAYgAQYigUYnQIYRhj6ARiXBRiMBRjdBNgBAUjmKFDsA1jSC3ABeAGQAQCYAdADoAGiBKoBBTEuNC0xuAEDyAEA-AEBmAIDoAK6BMICChAAGEcY1gQYsAPCAg0QABiABBiKBRhDGLADwgIPECMYsQIYJxidAhhGGPoBwgIKEAAYgAQYChixA8ICDRAAGIAEGIoFGAoYsQPCAg0QLhiABBgKGMcBGK8BwgIZEAAYsQIYnQIYRhj6ARiXBRiMBRjdBNgBAZgDAIgGAZAGCroGBggBEAEYE5IHBTIuNC0xoAfaGw&sclient=gws-wiz-serp.html" target="_blank">Tesla</a>|
+      <a href="https://www.google.com/search?q=Apple+stock&sca_esv=87466933d42afd42&sxsrf=ACQVn0-QK2tz7S-l2s12TczZijFjxeSA-w%3A1711841008349&ei=8J4IZsT6FMuy0PEPhdWXuAU&ved=0ahUKEwjEstvZkJ2FAxVLGTQIHYXqBVcQ4dUDCBA&uact=5&oq=Apple+stock&gs_lp=Egxnd3Mtd2l6LXNlcnAiC0FwcGxlIHN0b2NrMhIQABiABBiKBRhDGLEDGEYY-gEyDRAAGIAEGBQYhwIYsQMyCBAAGIAEGLEDMggQABiABBixAzIIEAAYgAQYsQMyCBAAGIAEGLEDMgUQABiABDIIEAAYgAQYsQMyCBAAGIAEGLEDMggQABiABBixAzIeEAAYgAQYigUYQxixAxhGGPoBGJcFGIwFGN0E2AECSMFqUABY8GJwBngBkAEAmAFToAG5CKoBAjE1uAEDyAEA-AEBmAIVoAKbCagCFMICBBAjGCfCAgoQIxiABBiKBRgnwgIKEAAYgAQYigUYQ8ICDRAAGIAEGIoFGEMYsQPCAhMQLhhDGMcBGLEDGNEDGIAEGIoFwgILEAAYgAQYsQMYgwHCAgsQLhiABBixAxjlBMICBxAjGOoCGCfCAhMQABiABBiKBRhDGOoCGLQC2AEBwgIHECMYsQIYJ8ICDRAAGIAEGAoYsQMYgwHCAg0QLhiABBgKGLEDGOUEwgIQEC4YgAQYChixAxiDARjUAsICChAAGIAEGAoYsQPCAg4QLhiABBixAxiDARjUAsICDhAuGIAEGLEDGMcBGNEDwgIREC4YgAQYsQMYgwEYxwEY0QPCAgcQABiABBgKmAMJugYGCAEQARgBugYGCAIQARgTkgcCMjGgB6euAQ&sclient=gws-wiz-serp.html" target="_blank">Apple</a>|
+      <a href="https://www.google.com/search?q=NVIDIA+stock&sca_esv=87466933d42afd42&sxsrf=ACQVn08vR6m0dIAoOPLlSNhVaqzI2DliIw%3A1711841077351&ei=NZ8IZt6GFYyAm9cPu-uxoAE&ved=0ahUKEwie9c76kJ2FAxUMwOYEHbt1DBQQ4dUDCBA&uact=5&oq=NVIDIA+stock&gs_lp=Egxnd3Mtd2l6LXNlcnAiDE5WSURJQSBzdG9jazINEAAYgAQYigUYQxixAzINEAAYgAQYigUYQxixAzIIEAAYgAQYsQMyCBAAGIAEGLEDMggQABiABBixAzIIEAAYgAQYsQMyCBAAGIAEGLEDMgUQABiABDIIEAAYgAQYsQMyCBAAGIAEGLEDSIkJUABYAHAAeAGQAQCYAUOgAUOqAQExuAEDyAEA-AEC-AEBmAIBoAJImAMAkgcBMaAHsgU&sclient=gws-wiz-serp.html" target="_blank">NVIDIA</a>
+    </h5>
+    <h5>Popular Stocks: 
+      <a href="https://www.google.com/search?q=Tesla+stock&sca_esv=87466933d42afd42&sxsrf=ACQVn0-rPElr2kqLr4TssqoL1gwn8OzMIg%3A1711840905290&ei=iZ4IZteuEa7F0PEP2fCs-As&ved=0ahUKEwiXl8mokJ2FAxWuIjQIHVk4C78Q4dUDCBA&uact=5&oq=Tesla+stock&gs_lp=Egxnd3Mtd2l6LXNlcnAiC1Rlc2xhIHN0b2NrMhIQIxiABBiKBRgnGJ0CGEYY-gEyDRAAGIAEGBQYhwIYsQMyCBAAGIAEGLEDMggQABiABBixAzIIEAAYgAQYsQMyCBAAGIAEGLEDMggQABiABBixAzILEAAYgAQYigUYsQMyCBAAGIAEGLEDMgsQLhiABBjHARivATIcEAAYgAQYigUYnQIYRhj6ARiXBRiMBRjdBNgBAUjmKFDsA1jSC3ABeAGQAQCYAdADoAGiBKoBBTEuNC0xuAEDyAEA-AEBmAIDoAK6BMICChAAGEcY1gQYsAPCAg0QABiABBiKBRhDGLADwgIPECMYsQIYJxidAhhGGPoBwgIKEAAYgAQYChixA8ICDRAAGIAEGIoFGAoYsQPCAg0QLhiABBgKGMcBGK8BwgIZEAAYsQIYnQIYRhj6ARiXBRiMBRjdBNgBAZgDAIgGAZAGCroGBggBEAEYE5IHBTIuNC0xoAfaGw&sclient=gws-wiz-serp.html" target="_blank">Tesla</a>|
+      <a href="https://www.google.com/search?q=Apple+stock&sca_esv=87466933d42afd42&sxsrf=ACQVn0-QK2tz7S-l2s12TczZijFjxeSA-w%3A1711841008349&ei=8J4IZsT6FMuy0PEPhdWXuAU&ved=0ahUKEwjEstvZkJ2FAxVLGTQIHYXqBVcQ4dUDCBA&uact=5&oq=Apple+stock&gs_lp=Egxnd3Mtd2l6LXNlcnAiC0FwcGxlIHN0b2NrMhIQABiABBiKBRhDGLEDGEYY-gEyDRAAGIAEGBQYhwIYsQMyCBAAGIAEGLEDMggQABiABBixAzIIEAAYgAQYsQMyCBAAGIAEGLEDMgUQABiABDIIEAAYgAQYsQMyCBAAGIAEGLEDMggQABiABBixAzIeEAAYgAQYigUYQxixAxhGGPoBGJcFGIwFGN0E2AECSMFqUABY8GJwBngBkAEAmAFToAG5CKoBAjE1uAEDyAEA-AEBmAIVoAKbCagCFMICBBAjGCfCAgoQIxiABBiKBRgnwgIKEAAYgAQYigUYQ8ICDRAAGIAEGIoFGEMYsQPCAhMQLhhDGMcBGLEDGNEDGIAEGIoFwgILEAAYgAQYsQMYgwHCAgsQLhiABBixAxjlBMICBxAjGOoCGCfCAhMQABiABBiKBRhDGOoCGLQC2AEBwgIHECMYsQIYJ8ICDRAAGIAEGAoYsQMYgwHCAg0QLhiABBgKGLEDGOUEwgIQEC4YgAQYChixAxiDARjUAsICChAAGIAEGAoYsQPCAg4QLhiABBixAxiDARjUAsICDhAuGIAEGLEDGMcBGNEDwgIREC4YgAQYsQMYgwEYxwEY0QPCAgcQABiABBgKmAMJugYGCAEQARgBugYGCAIQARgTkgcCMjGgB6euAQ&sclient=gws-wiz-serp.html" target="_blank">Apple</a>|
+      <a href="https://www.google.com/search?q=NVIDIA+stock&sca_esv=87466933d42afd42&sxsrf=ACQVn08vR6m0dIAoOPLlSNhVaqzI2DliIw%3A1711841077351&ei=NZ8IZt6GFYyAm9cPu-uxoAE&ved=0ahUKEwie9c76kJ2FAxUMwOYEHbt1DBQQ4dUDCBA&uact=5&oq=NVIDIA+stock&gs_lp=Egxnd3Mtd2l6LXNlcnAiDE5WSURJQSBzdG9jazINEAAYgAQYigUYQxixAzINEAAYgAQYigUYQxixAzIIEAAYgAQYsQMyCBAAGIAEGLEDMggQABiABBixAzIIEAAYgAQYsQMyCBAAGIAEGLEDMgUQABiABDIIEAAYgAQYsQMyCBAAGIAEGLEDSIkJUABYAHAAeAGQAQCYAUOgAUOqAQExuAEDyAEA-AEC-AEBmAIBoAJImAMAkgcBMaAHsgU&sclient=gws-wiz-serp.html" target="_blank">NVIDIA</a>
+    </h5>
   </nav>
+  
 
   <section>
     <h2>About Us</h2>
@@ -72,6 +120,5 @@
   <footer>
     <p>&copy; 2024 My Website. All rights reserved.</p>
   </footer>
-
 </body>
 </html>
