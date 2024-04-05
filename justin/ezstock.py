@@ -1,3 +1,4 @@
+#Credit to Khanrad for the base code.
 import yfinance as yf
 
 stock_data = yf.download('AMZN', start='2014-02-21', end='2024-02-21')
